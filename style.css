@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+  }
+  
+  body {
+    background-color: #12141D;
+  }
+  /* nav {
+    overflow: hidden;
+  } */
+  
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0 50px;
+    height:110%;
+    /* position: fixed; */
+    width: 100%;
+    
+    top: 0;
+   
+    z-index: 1;
+  }
+  
+  .nav-left, .nav-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .nav-left .logo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .mesh-gradient img {
+    display: block;
+    margin: 20px 0; /* Only vertical margin */
+    /* No width or height set: keep the image's original size */
+  }
+  
+  .down-arrow-circle {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .down-arrow-circle span {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .nav-center .basket-icon {
+    width: 391px;
+    height: 499px;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  
+  .navListContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navList {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  .navList li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navList li a:hover {
+    color: #7B57FF;
+  }
+  
+  .circle-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .circle-icon img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+  }
+
+/* Nav Center Text */ 
+.nav-center{
+    position: relative;
+}
+.nav-center h2{
+    color: #FFF;
+    font-family: 'Sen';
+    font-size: 75.798px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    margin-left: 10px;
+    
+}
+.nav-center p{
+    color: rgba(255, 255, 255, 0.58);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 38.4px */
+letter-spacing: -0.24px;
+}
+.nav-center button{
+    margin-top: 10px;
+    padding-top:18px ;
+    padding: 18.814px 32.702px 20.155px 27.595px;
+    border-radius: 36.375px;
+    border: 1.254px solid #FFF;
+    background-color: #12141D;
+    color: #FFF;
+    font-family: 'Sen';
+    font-size: 20.895px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.138px;
+    
+}
+.nav-center .Sampana{
+    position: absolute;
+    top: 0;
+    padding-top: 450px;
+
+}
+/* Hero Section */
+.hero {
+  padding: 70px;
+  width: 100%;
+}
+
+.hero h2 {
+  color: rgba(255, 255, 255, 0.58);
+  font-family: 'Sen';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.24px;
+  margin-bottom: 56px;
+  text-align: left; /* ensure it's left-aligned */
+}
+
+.hero img {
+  width: 100%;       /* ✅ Fill the entire screen width */
+  height: auto;      /* ✅ Maintain aspect ratio */
+  display: block;    /* Avoid extra space below image */
+ margin-bottom: 87px;         /* ✅ Remove centering */
+}
+
+.heroimg {
+  margin-top: 87px;
+  margin-bottom: 0px;
+}
+
+/*Speakers  */
+.speakers{
+
+  text-align: center;
+}
+.speakers h1{
+color: #FFF;
+font-family: Sen;
+font-size: 64px;
+font-style: normal;
+
+}
+.speakers span{
+  background: linear-gradient(346deg, #F01DA1 25.68%, #361A75 68.73%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.speakers p{
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.58);
+text-align: center;
+font-family: Sen;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 38.4px */
+letter-spacing: -0.24px;
+}
+
+
+.storyteller {
+ 
+  padding: 148px;
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+
+.storyteller > div {
+  padding: 53px 5px 42px 42px; 
+  width: 316px;
+  height: 330px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column; /* Stack inside */
+  gap: 10px;
+}
+.fndrst h1{
+  color: #FFF;
+font-family: Sen;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 24px */
+letter-spacing: -0.15px;
+}
+
+.fndrst p{
+  color: rgba(255, 255, 255, 0.58);
+font-family: Sen;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: -0.13px;
+}
+
+.thought{
+  color: #FFF;
+font-family: Sen;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.24px;
+}
+
+/* Circle icon wrapper */
+.icon-circle {
+  position: relative;
+  width: 63px;
+  height: 62px;
+  margin-bottom: 0px;
+}
+
+.icon-circle svg {
+  width: 100%;
+  height: 100%;
+}
+
+.icon-circle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+}
+
+/* Glide section */
+.glide h1{
+  color: #FFF;
+font-family: Sen;
+font-size: 49.562px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.glide h1 span{
+  background: linear-gradient(346deg, #F01DA1 25.68%, #361A75 68.73%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Sen;
+font-size: 49.562px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.learn{
+  padding: 98px 112px 127px 190px;
+  justify-content: center;
+  display: flex;
+  gap: 29px;
+  align-items: center;
+}
+
+.learn div p{
+  color: rgba(255, 255, 255, 0.58);
+font-family: Sen;
+font-size: 18.586px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 29.737px */
+letter-spacing: -0.186px;
+}
+.learn div div h6{
+  padding:  18px 25px 18px 25px;
+  color: #FFF;
+font-family: Sen;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.138px;
+border-radius: 36.375px;
+border: 1.254px solid #FFF;
+}
+/* Frames  */
+.frames{
+  margin-left: 10%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content; /* optional: constrains to image size */
+  height: auto;
+
+}
+
+
+/* Main (middle) image - stays in normal flow */
+.frame2 {
+  margin-top: 229px;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+/* Top image (raised 277px above) */
+.frame1 {
+  position: absolute;
+  top: -277px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* Bottom-left image (partially outside frame2) */
+.frame3 {
+  position: absolute;
+  bottom: -50px; /* adjust based on how much you want to hang out */
+  left: -50px;   /* adjust left offset */
+  z-index: 3;
+}
+
+footer{
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 45px;
+  
+}
+.footer_nav {
+  list-style: none;          /* ✅ removes the dot */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;     /* ✅ aligns text to the right */
+  gap: 10px;                 /* ✅ 10px vertical gap */
+  text-align: right;
+  padding: 0;                /* remove default list padding */
+  margin: 0;
+}
+
+.footer_nav li a {
+  color: #FFF;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: 'Sen';
+  font-size: 17.55px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
